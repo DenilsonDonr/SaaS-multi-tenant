@@ -1,0 +1,14 @@
+{
+    "name": "Laravel Subscripthub",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/var/www",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "php.validate.executablePath": "/usr/local/bin/php"
+            }
+        }
+    },
+    "postCreateCommand": "composer install"
+}
